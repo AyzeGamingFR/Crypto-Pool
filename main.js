@@ -18,7 +18,20 @@ var https_server = https.createServer();
 https_server.on("");
 https_server.listen("127.0.0.1", config["servers"["https"["port"]]]);
 
-// wallets rpc client
+// wallets rpc clients
 
-var wallets_client = socket.client();
-wallets_client.on();
+if (config["cryptocurrencys"["bitcoin"["mining_enabled"]]] == 1) {
+    
+    
+    
+};
+if (config["cryptocurrencys"["bitcoin-cash"["mining_enabled"]]] == 1) {
+    
+    
+    
+};
+if (config["cryptocurrencys"["dash"["mining_enabled"]]] == 1) {
+    
+    
+    
+};
